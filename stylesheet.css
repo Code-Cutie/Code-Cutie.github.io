@@ -1,9 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+  --bg-color: #FAFAFC;
+  --text-color: #1A1A24;
+  --trans-blue: #3ABAF0;
+  --trans-pink: #E58CA3;
+  --border-color: #E2E2E9;
+  --card-bg: #FFFFFF;
+}
 body {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
-    color: white;
-    background-color: #121212;
+    color: var(--text-color);
+    background-color: var(--bg-color);
 }
 p {
     font-family: "Montserrat", sans-serif;
@@ -16,8 +24,8 @@ p {
     font-weight: 300;
 }
 h1 {
-    color: #5BCEFA;
+    color: var(--trans-blue);
 }
 a {
-    color: #F5A9B8;
+    color: var(--trans-pink);
 }
