@@ -2,6 +2,8 @@
 body {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
+    color: white;
+    background-color: #121212;
 }
 p {
     font-family: "Montserrat", sans-serif;
@@ -11,4 +13,11 @@ p {
 }
 #Profile {
     border-radius: 50%;
+    font-weight: 300;
+}
+h1 {
+    color: #5BCEFA;
+}
+a {
+    color: #F5A9B8;
 }
